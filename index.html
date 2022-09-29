@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box1">
+            <input onclick="myFunction()" class="cm-toggle  id="slideOne" type="checkbox" >
+            <p class="text-one">.slideOne</p>
+        </div>
+        <div class="box2">
+            <label class="switch switch-flat">
+                <input class="switch-input" type="checkbox" />
+                <span class="switch-handle"></span> 
+            </label>
+                <p class="text-oneone">.roundedOne</p>
+        </div>
+        <div class="box3">
+                <div class="slideThree">  
+                    <input type="checkbox" value="None" id="slideThree" name="check" checked />
+                    <label for="slideThree"></label>
+                </div>
+                <p class="text-three">.slideThree</p>
+        </div>
+        <div class="box4">
+            <div class="roundedOne">
+                <input type="checkbox" value="None" id="roundedOne" name="check" checked />
+                <label for="roundedOne"></label>
+            </div>
+            <p>.roundedOne</p>
+        </div>
+        <div class="box5">
+            <div class="roundedTwo">
+                <input type="checkbox" value="None" id="roundedTwo" name="check" checked />
+                <label for="roundedTwo"></label>
+            </div>
+            <p>.roundedTwo</p>
+        </div>
+        <div class="box6">
+            <div class="squaredOne">
+                <input type="checkbox" value="None" id="squaredOne" name="check" checked />
+                <label for="squaredOne"></label>
+            </div>
+            <p>.squaredOne</p>
+        </div>
+        <div class="box7">
+            <div class="squaredTwo">
+                <input type="checkbox" value="None" id="squaredTwo" name="check" checked />
+                <label for="squaredTwo"></label>
+            </div>
+            <p>.squaredTwo</p>
+        </div>
+        <div class="box8">
+            <div class="squaredThree">
+                <input type="checkbox" value="None" id="squaredThree" name="check" checked />
+                <label for="squaredThree"></label>
+            </div>
+            <p>.squaredThree</p>
+        </div>
+        <div class="box9">
+            <div class="squaredFour">
+                <input type="checkbox" value="None" id="squaredFour" name="check" checked />
+                <label for="squaredFour"></label>
+            </div>
+            <p>.squaredFour</p>
+        </div>
+
+        <script>
+            function myFunction() {
+               var element = document.body;
+               element.classList.toggle("dark-mode",);
+            }
+            </script>
+    </div>
+</body>
+</html>
